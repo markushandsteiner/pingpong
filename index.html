@@ -51,6 +51,25 @@
             });
             
             //add enventlister
+            
+            
+            window.addEventListener('devicemotion', function(event){
+  
+                var xacceleration = Math.round(event.acceleration.x*10)/10;
+  
+                var xneigung = Math.round(event.accelerationIncludingGravity.x*10)/10;
+  
+  
+});
+            
+            
+            
+            
+            
+            
+            
+            
+            
             timer = setInterval(draw, 5);
             
             draw();
